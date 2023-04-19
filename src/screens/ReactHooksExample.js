@@ -23,6 +23,10 @@ const SplashScreen = () => {
         console.log('The value1 is changed Callback');
     }, [value1])
 
+    const AsyncAwait = async () => {
+        
+    }
+
     // useEffect(() => {
     //     return (() => {
     //         console.log('The Screen is now vanish');
