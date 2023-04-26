@@ -6,10 +6,14 @@ export default Home = ({ navigation }) => {
     return (
         <View>
             <Text>Home</Text>
-            <Button title={'Cleaning Products'} onPress={() => {
-                navigation.navigate('CleaningTab');
+            <Button title={'My Work'} onPress={() => {
+                navigation.navigate('MyWork', {
+                    first_name: 'satyam',
+                    last_name: 'rathuar'
+                });
             }} />
-            <CustomButton text='Home Screen' />
+
+            {/* <CustomButton text='Home Screen' /> */}
         </View>
     );
 }

@@ -19,7 +19,7 @@ export default MainStack = () => {
           headerShown: false,
           title:'Stack Navigator'
         }} />
-        <Stack.Screen name='CleaningTab' component={TopTab} />
+        {/* <Stack.Screen name='CleaningTab' component={TopTab} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

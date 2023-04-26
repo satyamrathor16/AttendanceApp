@@ -14,7 +14,7 @@ export default Bottom = () => {
         <Tab.Navigator screenOptions={{
             headerShown: false
         }}>
-            <Tab.Screen name='HomeNavigator' component={HomeNavigator} options={{ title: 'Home' }} />
+            <Tab.Screen name='HomeNavigator' component={HomeNavigator} />
             <Tab.Screen name='Notification' component={Notification} />
             <Tab.Screen name='Trainig' component={Training} />
         </Tab.Navigator>
